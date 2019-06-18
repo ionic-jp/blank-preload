@@ -9,7 +9,7 @@ export class HomePage {
 
   constructor() {}
 
-  ionViewWillEnter() {
+  ionViewDidEnter() {
     const preloadArea: HTMLElement = document.getElementById('preload');
     preloadArea.appendChild(document.createElement('ion-card'));
     preloadArea.appendChild(document.createElement('ion-card-header'));
